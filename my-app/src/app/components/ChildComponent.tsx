@@ -2,18 +2,13 @@
 const ChildComponent = (props:any) => {
     console.log(props)
     return(
-<div>
-    <div className="my-4 px-4">
-      <h1 className="text-2xl text-center bg-red-200 font-medium">Full Name: {props.fullName}</h1>
-    </div> 
-
-    <div className="my-4 px-4"> 
-      <h1 className="text-2xl text-center bg-red-200 font-semibold">Fav Dish: {props.favDish}</h1>
-    </div> 
-
-     <div className="my-4 px-4">
-      <h1 className="text-2xl text-center bg-red-200 font-semibold">Fav Work: {props.favWork}</h1>
-     </div>  
+<div className="flex m-auto justify-center p-10 shadow-2xl border-solid rounded-sm w-1/2 bg-slate-300">
+    <div className="font-semibold shadow-slate-200">
+         <h1>Full Name: {props.fullName}</h1>
+          <h2>Age: {props.age}</h2>
+          <h2>Fav Dish: {props.favdiah}</h2>
+          <h2>Fav Work: {props.favwork}</h2>
+    </div>
 </div>
     
 )

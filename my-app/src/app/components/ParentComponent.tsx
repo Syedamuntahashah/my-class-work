@@ -1,16 +1,18 @@
 import ChildComponent from "./ChildComponent";
 function ParentComponent(){
-    
-    let fullName = "Muntaha shah"
-    let favDish = "French Fries"
-    let favWork = "Coding"
-    
-    return(
+
+    let fullName = "Muntaha Shah"
+    let age = "23"
+    let  favdiah = "Zinger burger"
+    let favwork = "Programming"
+
+     return(
         <div> 
        <ChildComponent fullName = {fullName}
-                       favDish = {favDish}
-                       favWork = {favWork}
-                       />
+                            age =  {age}
+                         favdiah =  {favdiah}
+                           favwork = {favwork}
+                                     />                                                      
         </div>
     )
 }
