@@ -9,7 +9,7 @@ const State = () => {
    }
    const handleDecrement = () =>{
     setCount(count - 1)
-    }
+   }
   
     return (
        <div className="flex flex-row justify-around">
